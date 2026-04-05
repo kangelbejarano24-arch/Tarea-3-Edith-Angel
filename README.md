@@ -50,6 +50,7 @@ Se cargan los datos desde HDFS utilizando Spark DataFrames.
 - Ordenamiento por antigüedad
 - Conteo por tipo de vehículo
 - Conteo por gravedad
+- Ranking de marcas
 
 ## Ejecución
 
