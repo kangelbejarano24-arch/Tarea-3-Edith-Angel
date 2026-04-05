@@ -42,7 +42,7 @@ Se carga el dataset desde HDFS utilizando Spark.
 
 1. Asegurarse de tener Hadoop y Spark ejecutándose
 2. Cargar el dataset en HDFS:
-   hdfs dfs -put accidentes.csv /Tarea3EdithAngel
+   hdfs dfs -put /home/hadoop/anem-hgsc.csv /Tarea3EdithAngel
 
 3. Ejecutar el programa:
    python3 tarea3_edith_angel.py
@@ -56,4 +56,4 @@ El análisis permitió identificar:
 
 # Autor
 
-Edith Angel
+Edith karina Angel Bejarano
