@@ -9,6 +9,7 @@ El objetivo es identificar patrones en los accidentes.
 ## Dataset
 
 Fuente: Datos Abiertos de Colombia
+
 Archivo: anem-hgsc.csv
 
 Variables principales:
