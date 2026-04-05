@@ -47,9 +47,9 @@ Se cargan los datos desde HDFS utilizando Spark DataFrames.
 ### 4. Análisis exploratorio (EDA)
 
 - Vehículos con más de 10 años
-- Cantidad de accidentes por tipo
-- Cantidad por gravedad
-- Marcas más involucradas
+- Ordenamiento por antigüedad
+- Conteo por tipo de vehículo
+- Conteo por gravedad
 
 ## Ejecución
 
