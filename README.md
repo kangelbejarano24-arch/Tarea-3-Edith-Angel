@@ -1,15 +1,19 @@
-# Procesamiento en Batch con Apache Spark
+# Procesamiento en batch
 
 ## Descripción
 
-Este proyecto realiza un análisis de datos en batch utilizando Apache Spark sobre un conjunto de datos de accidentes de tránsito.
+Este proyecto realiza un análisis de datos en batch utilizando Apache Spark sobre un conjunto de datos de vehículos involucrados en accidentes de tránsito en el municipio de Tuluá.
 
 El dataset incluye:
 - Marca del vehículo
+- Modelo del vehículo
 - Tipo de vehículo
 - Edad del vehículo
 - Fecha del accidente
 - Gravedad del accidente
+- Departamento del accidente
+- Municipio del accidente
+- Autoridad de tránsito
 
 El objetivo es identificar patrones en los accidentes.
 
@@ -40,7 +44,7 @@ Se carga el dataset desde HDFS.
 ## Ejecución
 
 1. Cargar dataset en HDFS:
-hdfs dfs -put accidentes.csv /Tarea3EdithAngel
+hdfs dfs -put /home/hadoop/anem-hgsc.csv /Tarea3EdithAngel 
 
 2. Ejecutar:
 python3 tarea3_edith_angel.py
